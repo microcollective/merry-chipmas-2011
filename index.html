@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Merry Chipmas 2011</title>
+<style type="text/css">
+
+body {
+	font-family: "Courier New", Courier, Monaco, monospace;
+	color: FFF;
+	text-shadow: 1px 1px 2px black;
+	font-size: 28px;
+	background-color: cd2121;
+}
+
+a:visited {
+	color: FFFFFF;
+	text-decoration: none;
+}
+
+a:link {
+	color: FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: 444444;
+	text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=277069752312221";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.4.2.min.js'></script>
+<script type="text/javascript" src="./fadeinsequence.js"></script>
+<script type='text/javascript'>
+$(function(){
+
+$("window").ready(function() {
+	$("#wrapper").children().hide().fadeInSequence();
+	});
+
+$("#fadeInFadeOut").click(function() {
+	$("#wrapper").children().hide().fadeInSequence().fadeOut();
+	});
+
+});
+</script>
+<div id="wrapper" align="center">
+<div id="box1" align="center">
+<img src="tree.gif" alt="tree" width="600" height="600" /></div><br>
+<div class="fb-like" data-href="http://brkbrkbrk.com/mc2011/" data-send="true" data-layout="button_count" data-width="600" data-show-faces="true"></div>
+<br />
+<div id="box2" align="center">
+<a href="./MC2011.zip" target="_blank">Download Merry Chipmas 2011!</a><br></div>
+<br />
+<div id="box3" align="center">
+Cover art by <a href="http://chainsawpolice.com/" target="_blank">Chainsaw Police</a>!</div>
+<br />
+<br />
+<div style="background-color: fff; width: 504px; height: 560px;">
+<div class="fb-comments" data-href="http://brkbrkbrk.com/mc2011/" data-num-posts="10" data-width="500"></div>
+</div>
+<br /><br />
+<div id="box4" align="center">
+<font size="2em">~<a href="http://brkbrkbrk.com/" target="_blank">2xAA</a>~</font>
+</div>
+</div>
+</body>
+</html>
